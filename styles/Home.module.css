@@ -108,6 +108,10 @@
   margin-left: 0.5rem;
 }
 
+.social_icons:hover {
+  color: '#039b7a'
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
