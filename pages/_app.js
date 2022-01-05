@@ -3,7 +3,9 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Component {...pageProps} />
+      <div className="bg-neutral-900">
+        <Component {...pageProps} />
+      </div>
     </>
   )
 }
