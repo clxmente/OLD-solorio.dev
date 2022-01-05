@@ -29,7 +29,7 @@ export default function Home() {
             </div>
             {/* END Nav Bar */}
             <h1 className="font-mono text-gray-200 font-bold text-4xl sm:text-6xl flex justify-start px-5 sm:px-0">
-              hello, i'm clem.
+              {"hello, i'm clem."}
             </h1>
             <div className='px-5 sm:px-0 w-full'>
               <p className="font-mono text-neutral-500 text-lg leading-8 pt-8 sm:px-0">
