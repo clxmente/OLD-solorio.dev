@@ -33,12 +33,12 @@ export default function Home() {
             </h1>
             <div className='px-5 sm:px-0 w-full'>
               <p className="font-mono text-neutral-500 text-lg leading-8 pt-8 sm:px-0">
-                I'm Clemente Solorio, a 20 year old student enrolled <br className='hidden sm:block'/>
+                {"I'm Clemente Solorio, a 20 year old student enrolled "}<br className='hidden sm:block'/>
                 <a 
                   className="text-mygreen-100 hover:text-mygreen-500 hover:cursor-pointer"
                   href="https://www.fullerton.edu/">
                   @CSUF
-                </a>. I'm currently in my 3rd year of university,<br className='hidden sm:block'/>completing my Bachelors of Science in Computer Science.
+                </a>{". I'm currently in my 3rd year of university,"}<br className="hidden sm:block"/>{"completing my Bachelors of Science in Computer Science."}
               </p>
             </div>
             <div className="flex flex-nowrap pt-8 space-x-8 justify-start px-5 sm:px-0">
