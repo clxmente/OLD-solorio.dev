@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from "next/link";
 
-function Projects() {
+function Skills() {
     return (
         <div className="bg-neutral-900">
         <Head>
@@ -34,4 +34,4 @@ function Projects() {
     )
 }
 
-export default Projects
+export default Skills
