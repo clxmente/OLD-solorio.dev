@@ -16,10 +16,10 @@ function Projects() {
         </Head>
   
         <main>
-          <div className="flex justify-center items-center h-screen">
-            <div className="inline-block justify-center w-1/2">
+          <div className="flex justify-center items-center h-screen overflow-auto">
+            <div className="inline-block justify-center w-4/5 xl:w-1/2">
               {/* Nav Bar Code */}
-              <div className="h-24 flex justify-start px-5 sm:px-0">
+              <div className="h-12 sm:h-24 flex justify-start">
                 <nav className="font-mono text-lg text-gray-200 no-underline">
                   <div className="flex">
                     <div className="pr-10"><Link href={"/"}><a className="hover:text-mygreen-500">/home</a></Link></div>
@@ -29,11 +29,10 @@ function Projects() {
                 </nav>
               </div>
               {/* END Nav Bar */}
-              <h1 className="font-mono text-gray-200 font-bold text-3xl sm:text-4xl flex justify-start px-5 sm:px-0">
+              <h1 className="font-mono text-gray-200 font-bold text-3xl sm:text-4xl flex justify-start">
                 projects
               </h1>
-              <p className="font-mono text-lg leading-8 text-neutral-500 pt-4">listed below are some of the projects i have worked on.</p>
-              <div className="py-10 grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div className="py-10 grid grid-cols-1 xl:grid-cols-2 gap-8">
                 <div className="border-2 border-solid border-black bg-black rounded-md px-7 py-7 shadow-2xl hover:scale-105 hover:transition-all hover:ease-out hover:duration-500 transition-all ease-out duration-500">
                 <div className="flex items-center justify-between">
                   <p className='font-bold text-lg font-mono text-gray-200'>Python Password Manager</p>
