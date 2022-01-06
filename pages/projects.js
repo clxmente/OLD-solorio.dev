@@ -12,8 +12,6 @@ function Projects() {
         <Head>
           <title>Clemente Solorio</title>
           <meta name="description" content="Page with some of the projects I have worked on." />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <link rel="icon" href="https://github.com/clxmente.png"/>
         </Head>
   
