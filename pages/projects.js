@@ -12,12 +12,14 @@ function Projects() {
         <Head>
           <title>Clemente Solorio</title>
           <meta name="description" content="Page with some of the projects I have worked on." />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <link rel="icon" href="https://github.com/clxmente.png"/>
         </Head>
   
         <main>
-          <div className="flex justify-center items-center h-screen overflow-auto">
-            <div className="inline-block justify-center w-4/5 xl:w-1/2">
+          <div className="flex justify-center items-center sm:h-screen overflow-auto">
+            <div className="inline-block justify-center w-4/5 2xl:w-1/2">
               {/* Nav Bar Code */}
               <div className="h-12 sm:h-24 flex justify-start">
                 <nav className="font-mono text-lg text-gray-200 no-underline">
@@ -43,32 +45,38 @@ function Projects() {
                 <div className="border-2 border-solid border-black bg-black rounded-md px-7 py-7 shadow-2xl hover:scale-105 hover:transition-all hover:ease-out hover:duration-500 transition-all ease-out duration-500">
                   <div className="flex items-center justify-between">
                     <p className='font-bold text-lg font-mono text-gray-200'>University Database</p>
-                    <GrMysql size={"20"} color={"white"} />
-                    <DiPhp size={"30"} color={"white"} />
-                    <DiHtml5 size={"20"} color={"white"} />
-                    <DiCss3 size={"20"} color={"white"} />
+                    <div className='flex items-center'>
+                      <div className='pr-2 sm:pr-7'><GrMysql size={"20"} color={"white"} /></div>
+                      <div className='pr-2 sm:pr-7'><DiPhp size={"30"} color={"white"} /></div>
+                      <div className='pr-2 sm:pr-7'><DiHtml5 size={"20"} color={"white"} /></div>
+                      <DiCss3 size={"20"} color={"white"} />
+                    </div>
                   </div>
                   <p className='text-sm font-mono text-neutral-500 pt-4 text_flicker'>designed a university DB and user interface using MySQL, PHP, HTML, and CSS.</p>
                 </div>
                 <div className="border-2 border-solid border-black bg-black rounded-md px-7 py-7 shadow-2xl hover:scale-105 hover:transition-all hover:ease-out hover:duration-500 transition-all ease-out duration-500">
                   <div className="flex items-center justify-between">
                     <p className='font-bold text-lg font-mono text-gray-200'>NBA Players API</p>
-                    <SiFastapi size={"20"} color="white" />
-                    <FaPython size={"20"} color={"white"}/>
+                    <div className="flex items-center">
+                      <div className="pr-4 sm:pr-7"><SiFastapi size={"20"} color="white" /></div>
+                      <FaPython size={"20"} color={"white"}/>
+                    </div>
                   </div>
                   <p className='text-sm font-mono text-neutral-500 pt-4 text_flicker'>API built with FastAPI to retrieve NBA player information.</p>
                 </div>
                 <div className="border-2 border-solid border-black bg-black rounded-md px-7 py-7 shadow-2xl hover:scale-105 hover:transition-all hover:ease-out hover:duration-500 transition-all ease-out duration-500">
                   <div className="flex items-center justify-between">
                     <p className='font-bold text-lg font-mono text-gray-200'>This Website</p>
-                    <FaReact size={"20"} color={"white"} />
-                    <SiTailwindcss size={"20"} color={"white"} />
+                    <div className="flex items-center">
+                      <div className="pr-7"><FaReact size={"20"} color={"white"} /></div>
+                      <SiTailwindcss size={"20"} color={"white"} />
+                    </div>
                   </div>
                   <p className='text-sm font-mono text-neutral-500 pt-4 text_flicker'>This website was built with NextJS, React, and Tailwind.</p>
                 </div>
               </div>
             </div>
-          </div>
+        </div>
         </main>
       </div>
     )

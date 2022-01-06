@@ -5,7 +5,7 @@ import { AiOutlineGithub, AiOutlineTwitter, AiFillLinkedin, AiFillMail } from 'r
 
 export default function Home() {
   return (
-    <div className="bg-neutral-900">
+    <div>
       <Head>
         <title>Clemente Solorio</title>
         <meta name="description" content="20 year old student studying Computer Science at CSUF." />
@@ -39,11 +39,11 @@ export default function Home() {
                 </a>{". I'm currently in my 3rd year of university,"}<br className="hidden sm:block"/>{"completing my Bachelors of Science in Computer Science."}
               </p>
             </div>
-            <div className="flex flex-nowrap pt-8 space-x-8 justify-start px-5 sm:px-0 items-center">
-              <Social href={"https://github.com/clxmente"} icon={<AiOutlineGithub size={"36"} />} />
-              <Social href={"https://www.linkedin.com/in/clementesolorio/"} icon={<AiFillLinkedin size={"36"} />} />
-              <Social href={"mailto:clem@solorio.dev"} icon={<AiFillMail size={"36"} />} />
-              <Social href={"https://twitter.com/clxmente_"} icon={<AiOutlineTwitter size={"36"} />} />
+            <div className="flex flex-nowrap pt-8 space-x-8 justify-start px-5 sm:px-0">
+            <Social href={"https://github.com/clxmente"} icon={<AiOutlineGithub size={"36"} />} />
+            <Social href={"https://www.linkedin.com/in/clementesolorio/"} icon={<AiFillLinkedin size={"36"} />} />
+            <Social href={"mailto:clem@solorio.dev"} icon={<AiFillMail size={"36"} />} />
+            <Social href={"https://twitter.com/clxmente_"} icon={<AiOutlineTwitter size={"36"} />} />
             </div>
           </div>
         </div>
