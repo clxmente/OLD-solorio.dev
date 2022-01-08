@@ -17,7 +17,7 @@ function Projects() {
   
         <main>
           <div className="flex justify-center items-center sm:h-screen overflow-auto">
-            <div className="inline-block justify-center w-4/5 2xl:w-1/2">
+            <div className="inline-block justify-center w-4/5 2xl:w-1/2 pt-12 sm:pt-0">
               {/* Nav Bar Code */}
               <div className="h-12 sm:h-24 flex justify-start">
                 <nav className="font-mono text-lg text-gray-200 no-underline">
