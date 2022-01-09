@@ -32,7 +32,7 @@ function Projects() {
               <h1 className="font-mono text-gray-200 font-bold text-3xl sm:text-4xl flex justify-start">
                 projects
               </h1>
-              <div className="py-10 grid grid-cols-1 xl:grid-cols-2 gap-8">
+              <div className="py-10 grid grid-cols-1 xl:grid-cols-2 gap-8"> {/* grid container */}
                 <div className="border-2 border-solid border-black bg-black rounded-md px-7 py-7 shadow-2xl hover:scale-105 hover:transition-all hover:ease-out hover:duration-500 transition-all ease-out duration-500">
                 <div className="flex items-center justify-between">
                   <p className='font-bold text-lg font-mono text-gray-200'>Python Password Manager</p>
