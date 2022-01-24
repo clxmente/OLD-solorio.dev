@@ -35,7 +35,7 @@ export default function Home() {
             <Social href={"https://github.com/clxmente"} icon={<AiOutlineGithub size={"36"} />} />
             <Social href={"https://www.linkedin.com/in/clementesolorio/"} icon={<AiFillLinkedin size={"36"} />} />
             <Social href={"mailto:clem@solorio.dev"} icon={<AiFillMail size={"36"} />} />
-            <Social href={"https://twitter.com/clxmente_"} icon={<AiOutlineTwitter size={"36"} />} />
+            <Social href={"https://twitter.com/clxmente"} icon={<AiOutlineTwitter size={"36"} />} />
             </div>
           </div>
         </div>
