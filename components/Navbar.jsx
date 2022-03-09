@@ -7,7 +7,7 @@ export function Navbar() {
           <div className="flex">
             <div className="pr-10"><Link href={"/"}><a className="hover:text-mygreen-500">/home</a></Link></div>
             <div className="pr-10"><Link href={"/projects"}><a className="hover:text-mygreen-500">/projects</a></Link></div>
-            <div className=""><Link href={"/skills"}><a className="hover:text-mygreen-500">/skills</a></Link></div>
+            {/* <div className=""><Link href={"/skills"}><a className="hover:text-mygreen-500">/skills</a></Link></div> */}
           </div>
         </nav>
       </div>
