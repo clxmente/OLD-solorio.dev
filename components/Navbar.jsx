@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Navbar() {
     return (
-        <div className="h-24 flex justify-start">
+        <div className="h-12 sm:h-16 flex justify-start">
         <nav className="font-mono text-lg text-gray-200 no-underline">
           <div className="flex">
             <div className="pr-10"><Link href={"/"}><a className="hover:text-mygreen-500">/home</a></Link></div>
